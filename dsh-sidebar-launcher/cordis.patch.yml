@@ -1,0 +1,15 @@
+# dsh-sidebar-launcher bundle patch
+#
+# One insert: the plugin row. Installing this package through the bundle channel
+# (`dsh plugin --profile web add ./dsh-sidebar-launcher`, or a `link:` entry in
+# the profile's package.json plus `dsh-sidebar-launcher` in
+# `dsh.profile.bundles`) appends this patch to the profile's layer stack, and the
+# host half mounts from here.
+#
+# The host half is deliberately empty: everything this plugin does happens in the
+# browser, through the `dsh.client` half declared in package.json. The row still
+# has to exist, because that is what the client-module scanner walks to find the
+# package and put its `./client` artifact in the boot graph.
+- insert:
+    - id: sidebar-launcher
+      name: 'dsh-sidebar-launcher'
