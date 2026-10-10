@@ -95,10 +95,8 @@
 
 ## 安装
 
-```sh
-dsh plugin --profile web add ./dsh-sidebar-launcher
-```
 
+下载到本地解压缩
 ```sh
 dsh plugin --profile web add <文件地址>
 ```
