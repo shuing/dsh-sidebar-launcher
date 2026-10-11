@@ -105,8 +105,9 @@ https://github.com/shuing/dsh-sidebar-launcher
 ```sh
 dsh plugin --profile web add <文件地址>
 ```
-
-## 目录结构
+如果你要在profile-web-node moudle下存放可能 
+```sh
+dsh plugin --profile web add file:<文件地址>
 
 ```
 package.json            dsh.bundle.patch + dsh.client {platform:"web", inject:[...]}
