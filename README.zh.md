@@ -94,7 +94,12 @@
   就绪的，从不假设它们存在。
 
 ## 安装
+在官方左侧栏添加
+```sh
+ 
+https://github.com/shuing/dsh-sidebar-launcher
 
+```
 
 下载到本地解压缩
 ```sh
