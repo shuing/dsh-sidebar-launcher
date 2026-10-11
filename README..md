@@ -1,6 +1,6 @@
 # dsh-sidebar-launcher
 
-[English](./README.md) · **中文**
+(./README.md) · **中文**
 
 一个可拖动的 36×36 悬浮方块，挂在 DSH Web 外壳的右侧边栏上。它位于 frame 的浮层  
 （overlay layer）里，鼠标悬停或点击时弹出右列的页签菜单，并把最近激活的三个页签固定  
